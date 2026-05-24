@@ -1,9 +1,9 @@
 name: FlexaGift Monitor
 
 on:
- 
-schedule:
-  - cron: "* * * * *"
+  schedule:
+    - cron: "* * * * *"
+
   workflow_dispatch:
 
 jobs:
@@ -31,6 +31,5 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python check.py
-
 
 # test scheduler
