@@ -2,7 +2,7 @@ import cloudscraper
 from bs4 import BeautifulSoup
 import os
 
-URL = "https://flexagift.com/id-en/miniso/e-voucher-miniso-rp-250000"
+URL = "https://flexagift.com/id-en/pertamina/e-voucher-pertamina-rp-30000"
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
